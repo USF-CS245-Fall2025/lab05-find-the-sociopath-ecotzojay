@@ -8,7 +8,7 @@ public class Lab05Test {
 
     Sociopath finder = new Sociopath();
 
-    // Helper method to make creating lists easier for tests (Manual version)
+    //Helper method to make creating lists for tests
     private List<int[]> createList(int[]... pairs) {
         List<int[]> list = new ArrayList<>();
         for (int[] pair : pairs) {
